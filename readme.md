@@ -1,33 +1,15 @@
 # Personal website
 
-Personal website, built on [Middleman](http://middlemanapp.com).
+Personal website
 
 ## Dependencies
 
-- [Middleman](http://middlemanapp.com)
-- [Sass](http://sass-lang.com/)
-- [Livereload](https://github.com/middleman/middleman-livereload)
-- [Autoprefixer](https://github.com/middleman/middleman-autoprefixer)
-- [Webpack](https://github.com/webpack/webpack)
-- [Yarn](https://github.com/yarnpkg/yarn)
+None!
 
 ## Local preview
 
-Once you've installed the dependencies above:
+Just open `index.html` and voilà!
 
-```
-git clone git@github.com:haniotis/personal-website.git
-bundle install
-yarn
-bundle exec middleman
-```
+## Deploying
 
-
-## Build and deploy
-
-To build and deploy the website to GitHub pages, run the following commands. This will output the necessary files in the `build` folder and deploy the website.
-
-```
-rake build    # Compile all files into the build directory
-rake publish  # Build and publish to Github Pages
-```
+Pushing to master deploys the website to GitHub Pages.
