@@ -2,20 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><% if current_page.path == "index.html" %>Volume7 - Digital product agency<% else %><%= current_page.data.title %> - Volume7 - Digital product agency<% end %></title>
+    <title>Alexander Haniotis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<%= current_page.data.meta_description || 'We partner with forward-thinking startups and companies to conceptualize, build and launch new digital products.' %>">
-
-    <meta name="og:image" content="/images/share-image.png">
-    <meta name="og:title" content="Volume7">
-    <meta name="og:description" content="<%= current_page.data.meta_description || 'We partner with forward-thinking startups and companies to conceptualize, build and launch new digital products.' %>">
-    <meta name="og:url" content="https://volume7.io">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="/images/share-image.png">
-    <meta name="twitter:title" content="Volume7">
-    <meta name="twitter:description" content="<%= current_page.data.meta_description || 'We partner with forward-thinking startups and companies to conceptualize, build and launch new digital products.' %>">
-    <meta name="twitter:url" content="https://volume7.io">
 
     <%= favicon_tag '/favicon.png' %>
     <%= stylesheet_link_tag 'https://npmcdn.com/tachyons@4.0.0-beta.31/css/tachyons.min.css' %>
@@ -23,7 +11,5 @@
   </head>
   <body class="sans-serif pa4 pa5-l f5 lh-copy mw8 black-90">
     <%= yield %>
-
-    <%= partial 'partials/ga' %>
   </body>
 </html>
